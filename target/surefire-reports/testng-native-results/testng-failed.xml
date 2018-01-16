@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Suite1_Smoke.LoginTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="LoginTestWithParam"/>
+        </methods>
+      </class> <!-- Suite1_Smoke.LoginTest -->
+      <class name="Tests.ItemSearchNGTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Tests.ItemSearchNGTest -->
+      <class name="old.LoginTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="LoginTestWithParam"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- old.LoginTest -->
+      <class name="Suite2_Smoke.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTestWithParam"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Suite2_Smoke.LoginTest -->
+      <class name="Tests.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTestWithParam"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Tests.LoginTest -->
+      <class name="Suite2_Smoke.ItemSearchNGTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Suite2_Smoke.ItemSearchNGTest -->
+      <class name="Suite1_Smoke.ItemSearchNGTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Suite1_Smoke.ItemSearchNGTest -->
+      <class name="old.ItemSearchNGTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- old.ItemSearchNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

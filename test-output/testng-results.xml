@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52610" started-at="2018-01-16T18:01:49Z" finished-at="2018-01-16T18:02:42Z">
+    <groups>
+    </groups>
+    <test name="Suite2_Smoke" duration-ms="52610" started-at="2018-01-16T18:01:49Z" finished-at="2018-01-16T18:02:42Z">
+      <class name="Tests.ItemSearchNGTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.ItemSearchNGTest@5b275dab]" name="setUp" is-config="true" duration-ms="1101" started-at="2018-01-16T13:02:09Z" finished-at="2018-01-16T13:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testChromeSelenium()[pri:0, instance:Tests.ItemSearchNGTest@5b275dab]" name="testChromeSelenium" duration-ms="29037" started-at="2018-01-16T13:02:10Z" finished-at="2018-01-16T13:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChromeSelenium -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:Tests.ItemSearchNGTest@5b275dab]" name="cleanUp" is-config="true" duration-ms="2675" started-at="2018-01-16T13:02:39Z" finished-at="2018-01-16T13:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- Tests.ItemSearchNGTest -->
+      <class name="Tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.LoginTest@523884b2]" name="setUp" is-config="true" duration-ms="2838" started-at="2018-01-16T13:01:49Z" finished-at="2018-01-16T13:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTestWithParam(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTest@523884b2]" name="LoginTestWithParam" duration-ms="16262" started-at="2018-01-16T13:01:52Z" finished-at="2018-01-16T13:02:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ig4RCiYHAQcCWl1fWisyAw0GD0UPAA4=]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ig5AGTRKJSIrKl1dUA==]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestWithParam -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:Tests.LoginTest@523884b2]" name="cleanUp" is-config="true" duration-ms="680" started-at="2018-01-16T13:02:08Z" finished-at="2018-01-16T13:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Suite2_Smoke -->
+  </suite> <!-- Suite -->
+</testng-results>

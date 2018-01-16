@@ -1,0 +1,14 @@
+old\LoginTest.class
+old\AccountLogin.class
+Suite2_Smoke\ItemSearchNGTest.class
+Tests\ItemSearchNGTest.class
+Util\PasswordDecoderTest.class
+Tests\LoginTest.class
+Suite1_Smoke\LoginTest.class
+old\ItemSearchTest.class
+old\ItemSearchNGTest.class
+Pages\LoginPage.class
+Suite1_Smoke\ItemSearchNGTest.class
+com\mycompany\app\JM_Automation\AppTest.class
+Suite2_Smoke\LoginTest.class
+Util\StringEncrypt.class
